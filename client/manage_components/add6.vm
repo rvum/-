@@ -1,0 +1,22 @@
+<div class="container title-download">
+            <div class="row">
+                <div class="col-md-10"><h1>民主生活会准备情况名单统计</h1></div>
+                <div class="col-md-2 download downtable">
+                    <button class="downtablebutton download6" id="download6">下载未填报名单</button>
+                </div>
+            </div>
+            <div class="row countNames" id="countNames1">
+            <span>未填报人的名单为：</span>
+            </div>
+        </div>
+
+
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered" id="table6">
+                <tr>
+                    <th>工号</th>
+                    <th>姓名</th>
+                    <th>部门</th>
+                </tr>
+            </table>
+        </div>

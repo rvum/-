@@ -1,0 +1,98 @@
+<div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered table9">
+                <tr id="tr9-1">
+                    <th>姓名</th>
+                    <th>职务</th>
+                    <th>
+                        帮扶对象类别
+                    </th>
+                    <th>帮扶对象姓名</th>
+                    <th>住址</th>
+                    <th>帮扶对象基本情况</th>
+                    <th>备注</th>
+                </tr>
+                <tr id="tr9-2">
+                    <td><input type="text" name="k1" id="k1"></td>
+                    <td><input type="text" name="k12" id="k1_2"></td>
+                    <td>
+                        <select name="帮扶对象类别" class="form-control" id="k1_3">
+                            <option value="教师">教师</option>
+                            <option value="学生">学生</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="k14" id="k1_4"></td>
+                    <td><input type="text" name="k15" id="k1_5"></td>
+                    <td><textarea type="text" name="k16" id="k1_6"></textarea></td>
+                    <td><input type="text" name="k17" id="k1_7"></td>
+                </tr>
+                <tr id="tr9-3">
+                    <td><input type="text" name="k2" id="k2"></td>
+                    <td><input type="text" name="k22" id="k2_2"></td>
+                    <td>
+                        <select name="帮扶对象类别" class="form-control" id="k2_3">
+                            <option value="教师">教师</option>
+                            <option value="学生">学生</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="k24" id="k2_4"></td>
+                    <td><input type="text" name="k25" id="k2_5"></td>
+                    <td><textarea type="text" name="k26" id="k2_6"></textarea></td>
+                    <td><input type="text" name="k27" id="k2_7"></td>
+                </tr>
+                <tr id="tr9-4">
+                    <td><input type="text" name="k3" id="k3"></td>
+                    <td><input type="text" name="k32" id="k3_2"></td>
+                    <td>
+                        <select name="帮扶对象类别" class="form-control" id="k3_3">
+                            <option value="教师">教师</option>
+                            <option value="学生">学生</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="k34" id="k3_4"></td>
+                    <td><input type="text" name="k35" id="k3_5"></td>
+                    <td><textarea type="text" name="k36" id="k3_6"></textarea></td>
+                    <td><input type="text" name="k37" id="k3_7"></td>
+                </tr>
+                <tr id="tr9-5">
+                    <td><input type="text" name="k4" id="k4"></td>
+                    <td><input type="text" name="k42" id="k4_2"></td>
+                    <td>
+                        <select name="帮扶对象类别" class="form-control" id="k4_3">
+                            <option value="教师">教师</option>
+                            <option value="学生">学生</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="k44" id="k4_4"></td>
+                    <td><input type="text" name="k45" id="k4_5"></td>
+                    <td><textarea type="text" name="k46" id="k4_6"></textarea></td>
+                    <td><input type="text" name="k47" id="k4_7"></td>
+                </tr>
+                <tr id="tr9-6">
+                    <td><input type="text" name="k5" id="k5"></td>
+                    <td><input type="text" name="k52" id="k5_2"></td>
+                    <td><select name="帮扶对象类别" class="form-control" id="k5_3">
+                        <option value="教师">教师</option>
+                        <option value="学生">学生</option>
+                    </select></td>
+                    <td><input type="text" name="k54" id="k5_4"></td>
+                    <td><input type="text" name="k55" id="k5_5"></td>
+                    <td><textarea type="text" name="k56" id="k5_6"></textarea></td>
+                    <td><input type="text" name="k57" id="k5_7"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button title="添加一行" id="button9-add" data-itemNum="5" class="buttonAddCut">+</button>
+                    </td>
+                    <td colspan="5">备注：填报过程中如有问题请联系电话：63861545</td>
+                    <td>
+                        <button title="去掉一行" id="button9-cut" class="buttonAddCut">-</button>
+                    </td>
+                </tr>
+
+            </table>
+            <div id="saveAndSubmit9" class="saveAndSubmit">
+                <button>保存并提交</button>
+            </div>
+            <div class="alert" id="alert9">*保存成功！</div>
+
+        </div>

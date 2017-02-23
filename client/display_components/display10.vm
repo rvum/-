@@ -1,0 +1,10 @@
+<div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered personTable" id="display10">
+                <tr id="com-1">
+                    <th>序号</th>
+                    <th>整改项目</th>
+                    <th>整改任务</th>
+                    <th>完成时限</th>
+                </tr>
+            </table>
+        </div>

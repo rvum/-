@@ -1,0 +1,32 @@
+{
+  "name": "zzb",
+  "version": "0.0.1",
+  "description": "安徽大学党委组织部-信息报送平台",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack -p --progress --colors --release",
+    "watch": "webpack -p --watch --display-error-details"
+  },
+  "dependencies": {
+    "alasql": "^0.3.4",
+    "formidable": "^1.0.17",
+    "fs": "0.0.1-security",
+    "koa": "~1.2.4",
+    "mysql": "*"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "fs": "0.0.1-security",
+    "html-loader": "^0.4.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "velocityjs": "^0.9.2",
+    "webpack": "~1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "author": "rvum@outlook.com",
+  "license": "ISC"
+}

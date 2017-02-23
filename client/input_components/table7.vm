@@ -1,0 +1,29 @@
+<div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered">
+                <tr>
+                    <th>会议时间（格式为2016-12-14上午9：00）</th>
+                    <th>会议地点</th>
+                    <th>参加处级干部数</th>
+                    <th>参加校领导</th>
+                </tr>
+                <tr>
+                    <td><input type="text" name="i1" id="i1" placeholder="会议时间"></td>
+                    <td><input type="text" name="i2" id="i2" placeholder="会议地点"></td>
+                    <td><input type="number" name="i3" id="i3" placeholder="参加处级干部数"></td>
+                    <td><input type="text" name="i4" id="i4" placeholder="参加校领导"></td>
+                </tr>
+                <tr>
+                    <th>会上征求意见建议情况</th>
+                    <td colspan="3"><textarea colspan="200" name="i5" id="i5" style="width:100%;min-height:100px;outline:none;" placeholder="会上征求意见建议情况"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="4">备注：填报过程中如有问题请联系电话：63861545</td>
+                </tr>
+
+            </table>
+            <div id="saveAndSubmit7" class="saveAndSubmit">
+                <button>保存并提交</button>
+            </div>
+            <div class="alert" id="alert7">*保存成功！</div>
+
+        </div>

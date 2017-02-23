@@ -1,0 +1,30 @@
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered">
+        <tr id="tr5-1">
+            <th>校级领导班子</th>
+            <th>意见建议</th>
+        </tr>
+        <tr id="tr5-2">
+            <td><input type="text" name="d1" id="d1"></td>
+            <td colspan="100"><textarea name="d11" id="d1_1" style="width:100%;height:100%;outline:none;"></textarea></td>
+        </tr>
+        <tr id="tr5-3">
+            <td><input type="text" name="d2" id="d2"></td>
+            <td colspan="100"><textarea name="d21" id="d2_1" style="width:100%;height:100%;outline:none;"></textarea></td>
+        </tr>
+        <tr id="tr5-4">
+            <td><input type="text" name="d3" id="d3"></td>
+            <td colspan="100"><textarea name="d31" id="d3_1" style="width:100%;height:100%;outline:none;"></textarea></td>
+        </tr>
+        <tr>
+            <td>备注：填报过程中如有问题请联系电话：63861545</td>
+            <td>
+                <button title="添加一行" id="button5-2-add" data-itemNum="3" class="buttonAddCut">+</button><button title="去掉一行" id="button5-2-cut" class="buttonAddCut">-</button>
+            </td>
+        </tr>
+    </table>
+    <div id="saveAndSubmit5-2" class="saveAndSubmit">
+        <button>保存并提交</button>
+    </div>
+    <div class="alert" id="alert5-2">*保存成功！</div>
+</div>

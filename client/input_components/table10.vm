@@ -1,0 +1,82 @@
+<div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered personTable">
+                <tr id="com-1">
+                    <th>序号</th>
+                    <th>整改项目</th>
+                    <th>整改任务</th>
+                    <th>完成时限</th>
+                </tr>
+                <tr id="com-2">
+                    <td>1</td>
+                    <td><input type="text" name="n1" id="n1"></td>
+                    <td><textarea type="text" name="n12" id="n1_2"></textarea></td>
+                    <td><input type="text" name="n13" id="n1_3"></td>
+                </tr>
+                <tr id="com-3">
+                    <td>2</td>
+                    <td><input type="text" name="n1" id="n2"></td>
+                    <td><textarea type="text" name="n22" id="n2_2"></textarea></td>
+                    <td><input type="text" name="n23" id="n2_3"></td>
+                </tr>
+                <tr id="com-4">
+                    <td>3</td>
+                    <td><input type="text" name="n3" id="n3"></td>
+                    <td><textarea type="text" name="n32" id="n3_2"></textarea></td>
+                    <td><input type="text" name="n33" id="n3_3"></td>
+                </tr>
+                <tr id="com-5">
+                    <td>4</td>
+                    <td><input type="text" name="n4" id="n4"></td>
+                    <td><textarea type="text" name="n42" id="n4_2"></textarea></td>
+                    <td><input type="text" name="n43" id="n4_3"></td>
+                </tr>
+                <tr id="com-6">
+                    <td>5</td>
+                    <td><input type="text" name="n5" id="n5"></td>
+                    <td><textarea type="text" name="n52" id="n5_2"></textarea></td>
+                    <td><input type="text" name="n53" id="n5_3"></td>
+                </tr>
+                <tr id="com-7">
+                    <td>6</td>
+                    <td><input type="text" name="n6" id="n6"></td>
+                    <td><textarea type="text" name="n62" id="n6_2"></textarea></td>
+                    <td><input type="text" name="n63" id="n6_3"></td>
+                </tr>
+                <tr id="com-8">
+                    <td>7</td>
+                    <td><input type="text" name="n7" id="n7"></td>
+                    <td><textarea type="text" name="n72" id="n7_2"></textarea></td>
+                    <td><input type="text" name="n73" id="n7_3"></td>
+                </tr>
+                <tr id="com-9">
+                    <td>8</td>
+                    <td><input type="text" name="n8" id="n8"></td>
+                    <td><textarea type="text" name="n82" id="n8_2"></textarea></td>
+                    <td><input type="text" name="n83" id="n8_3"></td>
+                </tr>
+                <tr id="com-10">
+                    <td>9</td>
+                    <td><input type="text" name="n9" id="n9"></td>
+                    <td><textarea type="text" name="n92" id="n9_2"></textarea></td>
+                    <td><input type="text" name="n93" id="n9_3"></td>
+                </tr>
+                <tr id="com-11">
+                    <td>10</td>
+                    <td><input type="text" name="n10" id="n10"></td>
+                    <td><textarea type="text" name="n102" id="n10_2"></textarea></td>
+                    <td><input type="text" name="n103" id="n10_3"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">备注：填报过程中如有问题请联系电话：63861545</td>
+                    <td>
+                        <button title="添加一行" id="com-add" class="buttonAddCut" data-itemNum="10">+</button>
+                        <button title="去掉一行" id="com-cut" class="buttonAddCut">-</button>
+                    </td>
+                </tr>
+
+            </table>
+            <div id="saveAndSubmit-com" class="saveAndSubmit">
+                <button>保存并提交</button>
+            </div>
+            <div class="alert" id="alert-com">*保存成功！</div>
+        </div>

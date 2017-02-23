@@ -1,0 +1,8 @@
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered" id="display5-3">
+        <tr>
+            <th>党政部门</th>
+            <th>意见建议</th>
+        </tr>
+    </table>
+</div>

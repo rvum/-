@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit"><!--国产浏览器高速模式-->
+    <title>信息报送平台</title>
+    <link rel="stylesheet" href="skin/normalize.css">
+    <link rel="stylesheet" href="skin/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="skin/zzb.css">-->
+
+    <!--[if lte IE 9]>
+    <script src="js/respond.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container manageContainer">
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">后台管理</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="./manage.html">首页</a></li>
+                    <li><a href="#" id="add1">表一信息汇总</a></li>
+                    <li><a href="#" id="add2">表二信息汇总</a></li>
+                    <li><a href="#" id="add3">单位特色做法汇总</a></li>
+                    <li><a href="#" id="add4">单位研讨名单统计</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">已登录用户：组织部<span class="caret"></span></a>
+                        <ul class="dropdown-menu" id="dropdown-menu-2">
+                            <li><a href="./alter.html">修改密码</a></li>
+                            <li><a href="#" id="exit">注销</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>-->
+                <!--</ul>-->
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container title-download">
+            <div class="row">
+                <div class="col-md-10"><h1>标题</h1></div>
+                <div class="col-md-2 downtable">
+                    <button class="downtablebutton download2">下载</button>
+                </div>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered" id="table2">
+                <tr>
+                    <th rowspan="2">所属部门</th>
+                    <th colspan="2">学习习近平总书记“七一”讲话精神情况</th>
+                    <th colspan="2">坚持边学边查、立行立改情况</th>
+                    <th colspan="2">党员领导干部在所在支部讲党课情况</th>
+                    <th colspan="2">支部书记在所在支部讲党课情况</th>
+                    <th colspan="2">组织党员实地接收革命传统教育情况</th>
+                </tr>
+                <tr>
+                    <th>党支部数</th>
+                    <th>完成数</th>
+                    <th>查找问题数</th>
+                    <th>整改问题数</th>
+                    <th>讲党课数</th>
+                    <th>听党课人数</th>
+                    <th>讲党课数</th>
+                    <th>听党课人数</th>
+                    <th>批次</th>
+                    <th>党员参加人数</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; copyright 2016</p>
+    </footer>
+
+</div> <!-- /container -->
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="dist/zzb.js"></script>
+</body>
+</html>

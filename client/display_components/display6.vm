@@ -1,0 +1,10 @@
+<div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered" id="display6">
+                <tr>
+                    <th>会议时间</th>
+                    <th>会议地点</th>
+                    <th>参加校领导</th>
+                    <th>征求意见情况</th>
+                </tr>
+            </table>
+        </div>

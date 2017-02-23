@@ -1,0 +1,19 @@
+<div class="container title-download">
+            <div class="row">
+                <div class="col-md-10"><h1>征求意见汇总</h1></div>
+                <div class="col-md-2 download downtable">
+                    <button class="downtablebutton download13" id="download13">下载征求意见汇总</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered table13" id="table13">
+                <tr>
+                    <th>单位名称</th>
+                    <th>意见建议对象单位</th>
+                    <th>意见建议</th>
+                </tr>
+            </table>
+        </div>

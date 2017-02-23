@@ -1,0 +1,14 @@
+<div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered table17" id="display9">
+                <tr id="com-1">
+                    <th>序号</th>
+                    <th>姓名</th>
+                    <th>职务</th>
+                    <th>帮扶对象类别</th>
+                    <th>帮扶对象姓名</th>
+                    <th>住址</th>
+                    <th>帮扶对象基本情况</th>
+                    <th>备注</th>
+                </tr>
+            </table>
+        </div>

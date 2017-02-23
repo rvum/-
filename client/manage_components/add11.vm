@@ -1,0 +1,20 @@
+<div class="container title-download">
+            <div class="row">
+                <div class="col-md-10"><h1>个人整改任务书汇总</h1></div>
+                <div class="col-md-2 download downtable">
+                    <button class="downtablebutton download11" id="download11">下载个人整改任务书汇总</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered table11" id="table11">
+                <tr id="person-1">
+                    <th>姓名</th>
+                    <th>整改项目</th>
+                    <th>整改任务</th>
+                    <th>完成时限</th>
+                </tr>
+            </table>
+        </div>

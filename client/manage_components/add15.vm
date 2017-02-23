@@ -1,0 +1,22 @@
+<div class="container title-download">
+            <div class="row">
+                <div class="col-md-10"><h1>生活困难党员、老党员基本情况汇总</h1></div>
+                <div class="col-md-2 download downtable">
+                    <button class="downtablebutton download15" id="download15">下载生活困难党员、老党员基本情况表</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered table15" id="table15">
+                <tr id="com-1">
+                    <th>单位名称</th>
+                    <th>姓名</th>
+                    <th>出生年月</th>
+                    <th>入党时间</th>
+                    <th>困难党员、老党员基本情况</th>
+                    <th>备注</th>
+                </tr>
+            </table>
+        </div>

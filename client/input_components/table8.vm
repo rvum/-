@@ -1,0 +1,55 @@
+<div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered">
+                <tr id="tr8-1">
+                    <th>序号</th>
+                    <th>姓名</th>
+                    <th>出生年月（格式为1950年1月1日）</th>
+                    <th>入党时间（格式为1970年7月1日）</th>
+                    <th>困难党员、老党员基本情况</th>
+                    <th>备注</th>
+                </tr>
+                <tr id="tr8-2">
+                    <td>1</td>
+                    <td><input type="text" name="j1" id="j1"></td>
+                    <td><input type="text" name="j12" id="j1_2"></td>
+                    <td><input type="text" name="j13" id="j1_3"></td>
+                    <td><input type="text" name="j14" id="j1_4"></td>
+                    <td><input type="text" name="j15" id="j1_5"></td>
+                </tr>
+                <tr id="tr8-3">
+                    <td>2</td>
+                    <td><input type="text" name="j2" id="j2"></td>
+                    <td><input type="text" name="j22" id="j2_2"></td>
+                    <td><input type="text" name="j23" id="j2_3"></td>
+                    <td><input type="text" name="j24" id="j2_4"></td>
+                    <td><input type="text" name="j25" id="j2_5"></td>
+                </tr>
+                <tr id="tr8-4">
+                    <td>3</td>
+                    <td><input type="text" name="j3" id="j3"></td>
+                    <td><input type="text" name="j32" id="j3_2"></td>
+                    <td><input type="text" name="j33" id="j3_3"></td>
+                    <td><input type="text" name="j34" id="j3_4"></td>
+                    <td><input type="text" name="j35" id="j3_5"></td>
+                </tr>
+                <tr id="tr8-5">
+                    <td>4</td>
+                    <td><input type="text" name="j4" id="j4"></td>
+                    <td><input type="text" name="j42" id="j4_2"></td>
+                    <td><input type="text" name="j43" id="j4_3"></td>
+                    <td><input type="text" name="j44" id="j4_4"></td>
+                    <td><input type="text" name="j45" id="j4_5"></td>
+                </tr>
+                <tr id="tr8-6"><td>5</td><td><input type="text" name="j5" id="j5"></td><td><input type="text" name="j52" id="j5_2"></td><td><input type="text" name="j53" id="j5_3"></td><td><input type="text" name="j54" id="j5_4"></td><td><input type="text" name="j55" id="j5_5"></td></tr>
+                <tr>
+                    <td colspan="5">备注：填报过程中如有问题请联系电话：63861545</td>
+                    <td><button title="添加一行" id="button8-add" data-itemNum="5" class="buttonAddCut">+</button> <button title="去掉一行" id="button8-cut" class="buttonAddCut">-</button></td>
+                </tr>
+
+            </table>
+            <div id="saveAndSubmit8" class="saveAndSubmit">
+                <button>保存并提交</button>
+            </div>
+            <div class="alert" id="alert8">*保存成功！</div>
+
+        </div>

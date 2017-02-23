@@ -1,0 +1,83 @@
+<div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered personTable">
+                <tr id="person-1">
+                    <th>序号</th>
+                    <th>整改项目</th>
+                    <th>整改任务</th>
+                    <th>完成时限</th>
+                </tr>
+                <tr id="person-2">
+                    <td>1</td>
+                    <td><input type="text" name="m1" id="m1"></td>
+                    <td><textarea type="text" name="m12" id="m1_2"></textarea></td>
+                    <td><input type="text" name="m13" id="m1_3"></td>
+                </tr>
+                <tr id="person-3">
+                    <td>2</td>
+                    <td><input type="text" name="m1" id="m2"></td>
+                    <td><textarea type="text" name="m22" id="m2_2"></textarea></td>
+                    <td><input type="text" name="m23" id="m2_3"></td>
+                </tr>
+                <tr id="person-4">
+                    <td>3</td>
+                    <td><input type="text" name="m3" id="m3"></td>
+                    <td><textarea type="text" name="m32" id="m3_2"></textarea></td>
+                    <td><input type="text" name="m33" id="m3_3"></td>
+                </tr>
+                <tr id="person-5">
+                    <td>4</td>
+                    <td><input type="text" name="m4" id="m4"></td>
+                    <td><textarea type="text" name="m42" id="m4_2"></textarea></td>
+                    <td><input type="text" name="m43" id="m4_3"></td>
+                </tr>
+                <tr id="person-6">
+                    <td>5</td>
+                    <td><input type="text" name="m5" id="m5"></td>
+                    <td><textarea type="text" name="m52" id="m5_2"></textarea></td>
+                    <td><input type="text" name="m53" id="m5_3"></td>
+                </tr>
+                <tr id="person-7">
+                    <td>6</td>
+                    <td><input type="text" name="m6" id="m6"></td>
+                    <td><textarea type="text" name="m62" id="m6_2"></textarea></td>
+                    <td><input type="text" name="m63" id="m6_3"></td>
+                </tr>
+                <tr id="person-8">
+                    <td>7</td>
+                    <td><input type="text" name="m7" id="m7"></td>
+                    <td><textarea type="text" name="m72" id="m7_2"></textarea></td>
+                    <td><input type="text" name="m73" id="m7_3"></td>
+                </tr>
+                <tr id="person-9">
+                    <td>8</td>
+                    <td><input type="text" name="m8" id="m8"></td>
+                    <td><textarea type="text" name="m82" id="m8_2"></textarea></td>
+                    <td><input type="text" name="m83" id="m8_3"></td>
+                </tr>
+                <tr id="person-10">
+                    <td>9</td>
+                    <td><input type="text" name="m9" id="m9"></td>
+                    <td><textarea type="text" name="m92" id="m9_2"></textarea></td>
+                    <td><input type="text" name="m93" id="m9_3"></td>
+                </tr>
+                <tr id="person-11">
+                    <td>10</td>
+                    <td><input type="text" name="m10" id="m10"></td>
+                    <td><textarea type="text" name="m102" id="m10_2"></textarea></td>
+                    <td><input type="text" name="m103" id="m10_3"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">备注：填报过程中如有问题请联系电话：63861545</td>
+                    <td>
+                        <button title="添加一行" class="buttonAddCut" id="person-add" data-itemNum="10">+</button>
+                        <button title="去掉一行" class="buttonAddCut" id="person-cut">-</button>
+                    </td>
+                </tr>
+
+            </table>
+            <div id="saveAndSubmit-person" class="saveAndSubmit">
+                <button>保存并提交</button>
+            </div>
+            <div class="alert" id="alert-person">*保存成功！</div>
+        </div>
